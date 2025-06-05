@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import CategoriasAdmin from "./CategoriasAdmin";
 import PreguntasAdmin from "./PreguntasAdmin";
 import ParticipantesAdmin from "./ParticipantesAdmin";
+import ProductosAdmin from "./ProductosAdmin"; // <--- NUEVO
 
 function AdminPanel() {
   const [seccion, setSeccion] = useState("participantes");
@@ -13,11 +14,13 @@ function AdminPanel() {
         <button onClick={() => setSeccion("participantes")} className="btn-admin">Participantes</button>
         <button onClick={() => setSeccion("categorias")} className="btn-admin">Categorías</button>
         <button onClick={() => setSeccion("preguntas")} className="btn-admin">Preguntas</button>
+        <button onClick={() => setSeccion("productos")} className="btn-admin">Productos</button> {/* <-- nuevo */}
       </div>
       <div>
         {seccion === "participantes" && <ParticipantesAdmin />}
         {seccion === "categorias" && <CategoriasAdmin />}
         {seccion === "preguntas" && <PreguntasAdmin />}
+        {seccion === "productos" && <ProductosAdmin />} {/* <-- nuevo */}
       </div>
     </div>
   );

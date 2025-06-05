@@ -113,9 +113,9 @@ export default function App() {
         <Quiz onFinish={handleFinishQuiz} />
       ) : (
         <Result
-          category={categoriaGanadora?.nombre}
-          description={categoriaGanadora?.descripcion}
-          img={categoriaGanadora?.imagen}
+          category={categoriaGanadora} // categoriaGanadora DEBE ser el objeto completo
+          description={categoriaGanadora.descripcion}
+          img={categoriaGanadora.imagen}
           user={user}
         />
       )}
