@@ -119,6 +119,37 @@ export default function App() {
           user={user}
         />
       )}
+
+
+{/* Footer ondulado, versión más alta y marcada */}
+<div className="relative mt-20">
+  <div className="overflow-hidden leading-none pointer-events-none" style={{lineHeight:0}}>
+    <svg
+      viewBox="0 0 1440 220"
+      className="w-full h-[160px] md:h-[220px]"
+      preserveAspectRatio="none"
+    >
+      {/* Onda con más "amplitud" */}
+      <path
+        d="M0,160 Q360,120 720,180 T1440,160 L1440,220 L0,220 Z"
+        fill="#a184d6"
+      />
+    </svg>
+  </div>
+  <footer className="bg-[#a184d6] text-white py-14 flex flex-col items-center">
+    
+    <div className="mb-3 text-sm">
+      
+     Hecho por <span className="font-bold">AFTO</span> &copy; {new Date().getFullYear()}
+
+    </div>
+    
+  </footer>
+</div>
+
+
+
+
     </div>
   );
 }
