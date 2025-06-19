@@ -125,9 +125,15 @@ export default function App() {
 <div className="flex justify-center my-6">
   <img 
     src="/img/Dolcevitaelementos-10.png" 
-    alt="Funkyfish Logo" 
-    className="w-1/4 h-auto" // 1/4 del ancho del contenedor, altura automática
-    // O ajusta el tamaño a tu gusto: ej. w-48, w-64, etc.
+    alt="Funkyfish DolceVita" 
+    className="
+    w-36       // Móviles muy pequeños (9rem ≈ 144px)
+    sm:w-52    // Pantallas >= 640px (13rem ≈ 208px)
+    md:w-72    // Pantallas >= 768px (18rem ≈ 288px)
+    lg:w-96    // Pantallas >= 1024px (24rem ≈ 384px)
+    xl:w-[480px] // Pantallas >= 1280px (exactamente 480px)
+    h-auto
+  "
   />
 </div>
 
