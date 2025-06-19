@@ -80,7 +80,10 @@ export default function App() {
 
 
   return (
-    <div>
+     <div
+    className="min-h-screen bg-cover bg-center"
+    style={{ backgroundImage: "url('/img/BackDolceVita-01.png')" }}
+  >
       <Header />
 
       {/* Acceso invisible: presiona Ctrl+Shift+A para mostrar login admin */}
