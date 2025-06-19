@@ -9,7 +9,7 @@ export default function Header() {
         className="mb-2"
         style={{ width: "180px", height: "auto", maxWidth: "40vw" }}
       />
-      <h1
+      {/* <h1
         className="text-[60px] sm:text-[90px] md:text-[120px] font-bold text-yellow-400 text-center"
         style={{
           fontFamily: "'Baloo 2', cursive",
@@ -21,7 +21,7 @@ export default function Header() {
         }}
       >
         QUIZZES
-      </h1>
+      </h1> */}
 
 
              {/* "QUIZZES" - Texto amarillo con contorno rosa y forma de blob */}

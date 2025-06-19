@@ -127,7 +127,7 @@ export default function App() {
     src="/img/Dolcevitaelementos-10.png" 
     alt="Funkyfish DolceVita" 
     className="
-    w-48       // Móviles muy pequeños (9rem ≈ 144px)
+    
     sm:w-52    // Pantallas >= 640px (13rem ≈ 208px)
     md:w-72    // Pantallas >= 768px (18rem ≈ 288px)
     lg:w-96    // Pantallas >= 1024px (24rem ≈ 384px)
