@@ -133,6 +133,7 @@ export default function App() {
     lg:w-96    // Pantallas >= 1024px (24rem ≈ 384px)
     xl:w-[480px] // Pantallas >= 1280px (exactamente 480px)
     h-auto
+    animate-floating  // <-- ¡CLASE AÑADIDA AQUÍ!
   "
   />
 </div>
