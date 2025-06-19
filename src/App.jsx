@@ -80,10 +80,9 @@ export default function App() {
 
 
   return (
-     <div
-    className="min-h-screen bg-cover bg-center"
-    style={{ backgroundImage: "url('/img/BackDolceVita-01.png')" }}
-  >
+    <div className="min-h-screen bg-cover bg-center"
+      style={{ backgroundImage: "url('/img/BackDolceVita-01.png')" }}
+    >
       <Header />
 
       {/* Acceso invisible: presiona Ctrl+Shift+A para mostrar login admin */}
@@ -122,6 +121,16 @@ export default function App() {
           user={user}
         />
       )}
+
+<div className="flex justify-center my-6">
+  <img 
+    src="/img/Dolcevitaelementos-10.png" 
+    alt="Funkyfish Logo" 
+    className="w-1/4 h-auto" // 1/4 del ancho del contenedor, altura automática
+    // O ajusta el tamaño a tu gusto: ej. w-48, w-64, etc.
+  />
+</div>
+
 
 
 {/* Footer ondulado, versión más alta y marcada */}
