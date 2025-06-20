@@ -7,7 +7,7 @@ export default function Header() {
         src="/img/funky-logo.png"
         alt="Funkyfish Logo"
         className="mb-2"
-        style={{ width: "180px", height: "auto", maxWidth: "40vw" }}
+        style={{ width: "260px", height: "auto", maxWidth: "80vw" }}
       />
       {/* <h1
         className="text-[60px] sm:text-[90px] md:text-[120px] font-bold text-yellow-400 text-center"
@@ -37,8 +37,8 @@ export default function Header() {
         
         {/* Texto "QUIZZES" - encima del contorno */}
         <h1 
-          className="relative text-yellow-400 text-7xl md:text-8xl lg:text-9xl font-black px-8 py-4 z-20"
-          style={{
+          className="relative text-yellow-400 text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black px-8 py-2 z-20 text-center"
+  style={{
             fontFamily: "'Baloo 2', cursive", // Ya la tienes importada
             letterSpacing: "-0.04em",
             WebkitTextStroke: '3px #FF007F', // Contorno grueso del texto. Usar el mismo rosa fucsia.
