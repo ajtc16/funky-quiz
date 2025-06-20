@@ -37,7 +37,7 @@ export default function Header() {
         
         {/* Texto "QUIZZES" - encima del contorno */}
         <h1 
-          className="relative text-yellow-400 text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black px-8 py-2 z-20 text-center"
+          className="relative text-yellow-400 text-6xl sm:text-6xl md:text-6xl lg:text-7xl font-black px-8 py-2 z-20 text-center"
   style={{
             fontFamily: "'Baloo 2', cursive", // Ya la tienes importada
             letterSpacing: "-0.04em",
