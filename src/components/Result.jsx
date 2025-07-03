@@ -65,6 +65,12 @@ export default function Result({ category, description, img, user }) {
             <div className="font-semibold text-pink-700 text-center">
               {prod.nombre}
             </div>
+            {/* CTA llamativo */}
+            <span className="bg-pink-500 text-white px-4 py-1 rounded-full font-bold text-sm shadow mt-2
+              group-hover:bg-pink-600 group-hover:scale-110 transition
+              animate-bounce">
+              ¡Compra ya!
+            </span>
           </a>
         ))}
         {/* Si no hay productos, muestra un mensaje */}
