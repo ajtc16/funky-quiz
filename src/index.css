@@ -7,3 +7,11 @@ body {
   background: #ffe7f3;
   font-family: 'Poppins', 'Comic Sans MS', cursive, sans-serif;
 }
+
+.h-40 {
+  height: 12rem !important;
+}
+
+.w-40 {
+  width: 12rem !important;
+}
